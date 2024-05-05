@@ -47,12 +47,14 @@ s.close()
 
 print('connection closed')
 
-
+```
 
 
 
 
 SERVER:
+
+```
 
 import socket
 
@@ -97,6 +99,11 @@ print('Done sending')
 conn.send('Thank you for connecting'.encode())
 
 conn.close()
+
+
+```
+
+
 ## OUPUT
 
 ![Screenshot 2024-05-05 230358](https://github.com/ZafreenJagir/3c.FILE_TRANSFER_USING_TCP_SOCKETS/assets/144870573/0c571175-2e1b-4913-b962-0c8d0d91c402)
